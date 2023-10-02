@@ -1,0 +1,10 @@
+﻿import random
+
+# Gera um número aleatório entre 1 e 10
+numero_aleatorio = random.randint(1, 10)
+
+# Verifica se o número é par ou ímpar
+if numero_aleatorio % 2 == 0:
+    print(f'O número {numero_aleatorio} é par.')
+else:
+    print(f'O número {numero_aleatorio} é ímpar.')
